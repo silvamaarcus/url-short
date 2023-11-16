@@ -1,0 +1,41 @@
+.menu {
+  // removendo bolinhas do link
+  list-style: none;
+
+  // espaçamento entre os links
+  li {
+    margin-left: 32px;
+  }
+
+  // desativar menu desktop em telas menores que 960px
+  @include responsive(s) {
+    display: none;
+  }
+}
+
+.bx {
+  width: 40px;
+  height: 32px;
+
+  cursor: pointer;
+
+  display: none;
+
+  position: relative;  
+
+  background-image: url('../../svg/icon-menu.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bx.active {
+  width: 40px;
+  height: 32px;
+
+  position: fixed;
+
+  background-image: url("../../svg/icon-menu-close.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  z-index: 991;
+}
