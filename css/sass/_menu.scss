@@ -21,21 +21,59 @@
 
   display: none;
 
-  position: relative;  
+  position: relative;
 
-  background-image: url('../../svg/icon-menu.svg');
+  background-image: url("../../svg/icon-menu.svg");
   background-repeat: no-repeat;
   background-size: cover;
+
+  @include responsive(s) {
+    display: block;
+  }
 }
 .bx.active {
   width: 40px;
   height: 32px;
 
-  position: fixed;
+  // position: fixed;
 
   background-image: url("../../svg/icon-menu-close.svg");
   background-repeat: no-repeat;
   background-size: cover;
 
   z-index: 991;
+}
+
+.menu-mobile {
+  border: 0;
+  border-radius: 16px;
+
+  background-color: $soft-dark-violet;
+
+  z-index: 990;
+
+  transition: 0.7s ease;
+
+  position: absolute;
+  top: -100%;
+  // right: -100%;
+
+  li {
+    list-style: none;
+  }
+}
+.menu-mobile.showmenu {
+  // ocupar 100% da largura do pai (.relative)
+  width: 90%;
+
+  position: fixed;
+  top: 70px;
+  left: 16px;
+
+  display: block;
+
+  li {
+    list-style: none;
+    padding: 12px 24px;
+  }
 }

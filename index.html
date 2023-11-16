@@ -12,8 +12,8 @@
 <body>
   <!-- MENU DESKTOP -->
   <header>
-    <nav class="flex-space px-2 border mt-4">
-      <div class="flex-space">
+    <nav class="flex-space px-2 mt-4">
+      <div class="flex-space w-100">
         <div>
           <a href="">
             <img src="./svg/logo.svg" alt="Shortly" />
@@ -26,15 +26,28 @@
           <li><a href="">Resources</a></li>
         </ul>
 
-        <div class="bx border"></div>
+        <div class="bx flex-end-row"></div>
       </div>
 
-      <div class="flex-start-row">
+      <div class="menu flex-start-row">
         <a href="" class="mr-2">Login</a>
         <a href="" class="btn">Sing Up</a>
       </div>
     </nav>
 
+    <!-- MENU MOBILE -->
+    <div class="menu-mobile text-center mt-1 mx-1 py-3">
+      <ul class="bb-gray mx-3">
+        <li class="pb-2"><a href="" class="color-white link-menu-mobile">Features</a></li>
+        <li class="py-2"><a href="" class="color-white link-menu-mobile">Pricing</a></li>
+        <li class="py-2"><a href="" class="color-white link-menu-mobile">Resources</a></li>
+      </ul>
+
+      <ul class="mx-3">
+        <li class="py-2"><a href="" class="color-white">Login</a></li>
+        <li><a href="" class="btn w-100">Sing Up</a></li>
+      </ul>
+    </div>
 
 
   </header>
@@ -99,6 +112,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script src="js/app.js"></script>
 </body>
 
 </html>

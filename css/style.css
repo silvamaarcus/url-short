@@ -1595,15 +1595,44 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (max-width: 960px) {
+  .bx {
+    display: block;
+  }
+}
 
 .bx.active {
   width: 40px;
   height: 32px;
-  position: fixed;
   background-image: url("../../svg/icon-menu-close.svg");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 991;
+}
+
+.menu-mobile {
+  border: 0;
+  border-radius: 16px;
+  background-color: #3b3054;
+  z-index: 990;
+  transition: 0.7s ease;
+  position: absolute;
+  top: -100%;
+}
+.menu-mobile li {
+  list-style: none;
+}
+
+.menu-mobile.showmenu {
+  width: 90%;
+  position: fixed;
+  top: 70px;
+  left: 16px;
+  display: block;
+}
+.menu-mobile.showmenu li {
+  list-style: none;
+  padding: 12px 24px;
 }
 
 .icon {
