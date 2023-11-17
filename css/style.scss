@@ -34,6 +34,10 @@ body {
   border: 1px solid red;
 }
 
+.border-b {
+  border: 1px solid black;
+}
+
 .hidden {
   overflow: hidden;
 }
@@ -49,6 +53,7 @@ img {
 }
 
 @import "sass/menu";
+@import "sass/main";
 @import "sass/icons";
 @import "sass/buttons";
 @import "sass/footer";

@@ -87,7 +87,7 @@ $gutter: 32px;
   max-width: $container-l; // Definindo tamanho padrão para container.
   margin: 0 auto; // Centralizando container.
 
-  padding: 128px 24px; // Espaçamento-> eixo y: 128px - eixo x: 24px.
+  padding: 0; // Espaçamento-> eixo y: 128px - eixo x: 24px.
 
   // Evitar scroll para o lado, caso algum filho vazer o container.
   overflow: hidden;

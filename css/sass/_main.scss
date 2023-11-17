@@ -1,0 +1,10 @@
+.hero {
+  @include responsive(s) {
+    padding-top: 0;
+    text-align: center;
+
+    .reverse-items {
+      flex-direction: column-reverse;
+    }
+  }
+}
