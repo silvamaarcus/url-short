@@ -28,11 +28,11 @@ select,
 option,
 textarea {
   padding: 10px 12px;
-  background-color: $black-light;
+  background-color: $white-light;
   border: 0; // remover bordas
-  border-radius: 4px;
+  border-radius: 8px;
   width: 100%; // sempre ocupar a largura total do 'pai'
-  color: $white-light;
+  color: $black-light;
   @include typeface-2(p3, desktop);
 }
 
@@ -51,6 +51,27 @@ option {
   background: $soft-cyan !important;
 
   border-radius: 16px;
+  border: 0;
+
+  @include typeface-2(p3, desktop);
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+  &:hover {
+    opacity: 0.7; // aplicar opacidade
+  }
+}
+
+.btn-2 {
+  display: inline-block;
+  padding: 8px 24px;
+
+  // use cores desejada...
+  color: $white-light;
+  background: $soft-cyan !important;
+
+  border-radius: 8px;
   border: 0;
 
   @include typeface-2(p3, desktop);
