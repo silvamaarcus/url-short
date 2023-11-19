@@ -1718,6 +1718,11 @@ header {
 .bg-gray {
   background-color: #f0f1f6;
 }
+@media screen and (max-width: 960px) {
+  .bg-gray {
+    margin-bottom: 0 !important;
+  }
+}
 
 @media screen and (max-width: 960px) {
   .cards {
@@ -1874,6 +1879,13 @@ header {
   .card-item-3::before {
     display: none;
   }
+}
+
+.bg-container-boost {
+  background-image: url("../../svg/bg-boost-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #3b3054;
 }
 
 .icon {

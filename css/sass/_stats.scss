@@ -1,5 +1,9 @@
 .bg-gray {
   background-color: #f0f1f6;
+
+  @include responsive(s) {
+    margin-bottom: 0 !important;
+  }
 }
 
 .cards {
