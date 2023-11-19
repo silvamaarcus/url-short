@@ -1,0 +1,50 @@
+.bg-footer {
+  background-color: $very-dark-violet;
+}
+
+.center {
+  @include responsive(s) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.logo-footer {
+  max-width: 100px;
+  max-height: 80px;
+}
+
+.menu-footer {
+  @include responsive(s) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    text-align: center;
+  }
+}
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex: 1 !important;
+
+  li {
+    margin-bottom: 16px;
+  }
+
+  @include responsive (s) {
+    margin: 0 !important;
+  }
+}
+
+.social-media {
+  gap: 24px;
+
+  @include responsive(s) {
+    justify-content: center;
+  }
+}

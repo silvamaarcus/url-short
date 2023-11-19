@@ -2007,4 +2007,55 @@ option {
 }
 .btn-2:hover {
   opacity: 0.7;
+}
+
+.bg-footer {
+  background-color: #232127;
+}
+
+@media screen and (max-width: 960px) {
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.logo-footer {
+  max-width: 100px;
+  max-height: 80px;
+}
+
+@media screen and (max-width: 960px) {
+  .menu-footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+  }
+}
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex: 1 !important;
+}
+.footer-list li {
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 960px) {
+  .footer-list {
+    margin: 0 !important;
+  }
+}
+
+.social-media {
+  gap: 24px;
+}
+@media screen and (max-width: 960px) {
+  .social-media {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */
