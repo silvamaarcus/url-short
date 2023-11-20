@@ -27,16 +27,17 @@ Users should be able to:
 
 ### Screenshot
 - Desktop:
-![desktop](https://github.com/silvamaarcus/news-homepage/assets/75142775/5e4b783c-5fca-4f7c-921c-507fe81986ce)
+![desktop](https://github.com/silvamaarcus/url-short/assets/75142775/252c338d-53c2-4ae1-ae3c-71341c94bb12)
 
 - Mobile: 
-![mobile](https://github.com/silvamaarcus/news-homepage/assets/75142775/0a0742c0-357e-48af-9806-40c68cd4b138)
+![mobile](https://github.com/silvamaarcus/url-short/assets/75142775/adc78bb0-2ec1-4fed-8afb-c93c0aac4df6)
+![mobile-close](https://github.com/silvamaarcus/url-short/assets/75142775/961ec153-d4e3-42f6-906d-e8b41292773a)
 
 
 ### Links
 
 - Solution URL: [Github](https://github.com/silvamaarcus/url-short)
-- Live Site URL: [Vercel]()
+- Live Site URL: [Vercel](https://url-short-five.vercel.app/)
 
 ## My process
 
@@ -47,7 +48,9 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/) - JS library
+
 
 
 ### What I learned
