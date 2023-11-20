@@ -64,6 +64,6 @@ Afterwards, the static project was converted into React components to enhance it
 
 ## Author
 
-- LinkedIn - [Add your name here](https://www.linkedin.com/in/silvamaarcus/)
+- LinkedIn - [Marcus Silva](https://www.linkedin.com/in/silvamaarcus/)
 - Frontend Mentor - [@silvamaarcus](https://www.frontendmentor.io/profile/silvamaarcus)
 - Github - [@silvamaarcus](https://github.com/silvamaarcus)
